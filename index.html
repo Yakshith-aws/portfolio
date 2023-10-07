@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yakshith's Portfolio</title>
+    <style>
+        /* Basic CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        /* Add your animations and additional CSS here */
+        /* Example animation for an element */
+        .project-item {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s, transform 0.5s;
+        }
+
+        /* Hover effect */
+        .project-item:hover {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Style for the profile image */
+        .profile-image {
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect for the profile image */
+        .profile-image:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yakshith's Portfolio</h1>
+        <p>Welcome to my portfolio website</p>
+    </header>
+    <div class="container">
+        <!-- Add your profile image here -->
+        <img class="profile-image" src="https://yakshithwebsite2023.s3.amazonaws.com/profile.png" alt="Yakshith's Profile Image">
+        
+        <h2>Projects</h2>
+        <div class="project-item">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+        </div>
+        <div class="project-item">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+        </div>
+        <div class="project-item">
+            <h3>Project 3</h3>
+            <p>Description of Project 3</p>
+        </div>
+    </div>
+</body>
+</html>
+
